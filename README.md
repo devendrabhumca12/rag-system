@@ -6,7 +6,7 @@ A complete, production-ready Retrieval-Augmented Generation (RAG) system built w
 
 **📚 Documentation:**
 - 📖 [README.md](./README.md) - Start here
-- 🎬 [VIDEO_TUTORIAL.md](./VIDEO_TUTORIAL.md) - How to create demo videos
+- 🎬 [LIVE_DEMO.md](./LIVE_DEMO.md) - Screenshots & live examples
 - 🏗️ [ARCHITECTURE.md](./ARCHITECTURE.md) - System diagrams & flow charts
 - 📋 [DEMO.md](./DEMO.md) - Visual examples & conversations
 
@@ -144,16 +144,19 @@ See [RAG_PIPELINE.md](./RAG_PIPELINE.md) for detailed architecture.
 
 ## 🎬 Live Demo & Screenshots
 
-### Video Tutorial
-📹 **Creating Demo Videos?** See [VIDEO_TUTORIAL.md](./VIDEO_TUTORIAL.md) for:
-- Screen recording instructions
-- Video editing tips
-- YouTube upload guide
-- Example scripts
-- Best practices
+### 📹 See It In Action
+Watch the live demo with screenshots showing:
+- ✅ Clean upload interface with drag-and-drop
+- ✅ ChatGPT-style chat interface
+- ✅ Real example conversations
+- ✅ Performance metrics
+- ✅ Search algorithm visualization
+- ✅ Complete data flow
+
+**👉 See [LIVE_DEMO.md](./LIVE_DEMO.md) for full demo with screenshots!**
 
 ### System Architecture
-🏗️ **Want to understand the flow?** See [ARCHITECTURE.md](./ARCHITECTURE.md) for:
+🏗️ **Want to understand the technical flow?** See [ARCHITECTURE.md](./ARCHITECTURE.md) for:
 - Complete pipeline diagrams
 - Search algorithm flowcharts
 - Component architecture
