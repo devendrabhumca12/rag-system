@@ -142,20 +142,7 @@ See [RAG_PIPELINE.md](./RAG_PIPELINE.md) for detailed architecture.
 
 ---
 
-## 🎬 Live Demo & Screenshots
-
-### 📹 See It In Action
-Watch the live demo with screenshots showing:
-- ✅ Clean upload interface with drag-and-drop
-- ✅ ChatGPT-style chat interface
-- ✅ Real example conversations
-- ✅ Performance metrics
-- ✅ Search algorithm visualization
-- ✅ Complete data flow
-
-**👉 See [LIVE_DEMO.md](./LIVE_DEMO.md) for full demo with screenshots!**
-
-### System Architecture
+## 🏗️ System Architecture
 🏗️ **Want to understand the technical flow?** See [ARCHITECTURE.md](./ARCHITECTURE.md) for:
 - Complete pipeline diagrams
 - Search algorithm flowcharts
