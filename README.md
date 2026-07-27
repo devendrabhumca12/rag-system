@@ -1,4 +1,4 @@
-# Zero-Budget RAG System 🚀
+#RAG System 🚀
 
 A complete, production-ready Retrieval-Augmented Generation (RAG) system built with **100% free, open-source tools**. Upload any document and ask questions to get exact answers extracted from your files.
 
