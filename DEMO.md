@@ -55,7 +55,7 @@
 ║  │ Bot:                                               │  ║
 ║  │ ┌──────────────────────────────────────────────┐  │  ║
 ║  │ │ PROFESSIONAL EXPERIENCE                      │  │  ║
-║  │ │ Staff Engineer - iOS at NAGARRO SOFTWARE     │  │  ║
+║  │ │ Staff Engineer - iOS at XYZ Corporation     │  │  ║
 ║  │ │ 09/2021 to Current                           │  │  ║
 ║  │ │ Led iOS development for multiple products    │  │  ║
 ║  │ │ across banking and e-commerce domains.       │  │  ║
@@ -107,7 +107,7 @@
 │ Q: What company do you work for?         │
 ├─────────────────────────────────────────┤
 │ A: PROFESSIONAL EXPERIENCE               │
-│    Staff Engineer - iOS at NAGARRO       │
+│    Staff Engineer - iOS at XYZ       │
 │    SOFTWARE                              │
 │    09/2021 to Current                    │
 │                                          │
@@ -321,7 +321,7 @@ Frontend: Display in chat bubble with formatting
   "preview": [
     "DEVENDRA AGNIHOTRI Email: dev@example.com Phone: +91-9876543210 Address: Sector 120, Noida, India",
     "PROFESSIONAL SUMMARY Experienced iOS Developer with 10 years of expertise in building scalable mobile applications...",
-    "PROFESSIONAL EXPERIENCE Staff Engineer - iOS at NAGARRO SOFTWARE 09/2021 to Current..."
+    "PROFESSIONAL EXPERIENCE Staff Engineer - iOS at XYZ Corporation 09/2021 to Current..."
   ]
 }
 ```
@@ -331,7 +331,7 @@ Frontend: Display in chat bubble with formatting
 {
   "question": "What is your current company?",
   "matches": [
-    "PROFESSIONAL EXPERIENCE\nStaff Engineer - iOS at NAGARRO SOFTWARE\n09/2021 to Current\nLed iOS development for multiple products across banking and e-commerce domains. Architected and implemented advanced features using Swift and SwiftUI. Mentored junior developers and established best practices for code quality."
+    "PROFESSIONAL EXPERIENCE\nStaff Engineer - iOS at XYZ Corporation\n09/2021 to Current\nLed iOS development for multiple products across banking and e-commerce domains. Architected and implemented advanced features using Swift and SwiftUI. Mentored junior developers and established best practices for code quality."
   ],
   "total_found": 1
 }

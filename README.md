@@ -4,6 +4,12 @@ A complete, production-ready Retrieval-Augmented Generation (RAG) system built w
 
 **Cost: $0 forever** ✅
 
+**📚 Documentation:**
+- 📖 [README.md](./README.md) - Start here
+- 🎬 [VIDEO_TUTORIAL.md](./VIDEO_TUTORIAL.md) - How to create demo videos
+- 🏗️ [ARCHITECTURE.md](./ARCHITECTURE.md) - System diagrams & flow charts
+- 📋 [DEMO.md](./DEMO.md) - Visual examples & conversations
+
 ---
 
 ## 🎯 What It Does
@@ -70,7 +76,7 @@ PROFESSIONAL SUMMARY
 Experienced iOS Developer with 10 years of expertise in building scalable mobile applications.
 
 PROFESSIONAL EXPERIENCE
-Staff Engineer - iOS at NAGARRO SOFTWARE
+Staff Engineer - iOS at XYZ Corporation
 09/2021 to Current
 Led iOS development for multiple products across banking and e-commerce domains.
 
@@ -84,14 +90,14 @@ Frameworks: SwiftUI, UIKit, Combine, RxSwift
 2. Drag & drop `sample.txt`
 3. Click "Upload & Chat"
 4. Ask: "What's your current company?"
-5. Get exact answer: "Staff Engineer - iOS at NAGARRO SOFTWARE"
+5. Get exact answer: "Staff Engineer - iOS at XYZ Corporation"
 
 **Expected Result:**
 ```json
 {
   "question": "What's your current company?",
   "matches": [
-    "PROFESSIONAL EXPERIENCE\nStaff Engineer - iOS at NAGARRO SOFTWARE\n09/2021 to Current\nLed iOS development for multiple products..."
+    "PROFESSIONAL EXPERIENCE\nStaff Engineer - iOS at XYZ Corporation\n09/2021 to Current\nLed iOS development for multiple products..."
   ]
 }
 ```
@@ -136,7 +142,25 @@ See [RAG_PIPELINE.md](./RAG_PIPELINE.md) for detailed architecture.
 
 ---
 
-## 🎬 Live Demo
+## 🎬 Live Demo & Screenshots
+
+### Video Tutorial
+📹 **Creating Demo Videos?** See [VIDEO_TUTORIAL.md](./VIDEO_TUTORIAL.md) for:
+- Screen recording instructions
+- Video editing tips
+- YouTube upload guide
+- Example scripts
+- Best practices
+
+### System Architecture
+🏗️ **Want to understand the flow?** See [ARCHITECTURE.md](./ARCHITECTURE.md) for:
+- Complete pipeline diagrams
+- Search algorithm flowcharts
+- Component architecture
+- Data flow examples
+- Technology stack
+
+---
 
 ### Step 1: Upload Page
 The system starts with a clean, minimalist upload interface:
@@ -201,7 +225,7 @@ After upload, you see the chat page:
 │  You: What's your current company?           │
 │  ───────────────────────────────────────────│
 │  Bot: PROFESSIONAL EXPERIENCE                │
-│       Staff Engineer - iOS at NAGARRO        │
+│       Staff Engineer - iOS at XYZ        │
 │       SOFTWARE 09/2021 to Current            │
 │       Led iOS development for multiple...    │
 │                                              │
@@ -223,7 +247,7 @@ After upload, you see the chat page:
 
 | Question | Answer | Quality |
 |----------|--------|---------|
-| **Q:** "What is your current company?" | **A:** PROFESSIONAL EXPERIENCE - Staff Engineer - iOS at **NAGARRO SOFTWARE** 09/2021 to Current | ✅ Exact match |
+| **Q:** "What is your current company?" | **A:** PROFESSIONAL EXPERIENCE - Staff Engineer - iOS at **XYZ Corporation** 09/2021 to Current | ✅ Exact match |
 | **Q:** "What are your technical skills?" | **A:** TECHNICAL SKILLS - Languages: Swift, Objective-C, JavaScript, Python - Frameworks: SwiftUI, UIKit, Combine, RxSwift | ✅ Complete |
 | **Q:** "How many years experience?" | **A:** Experienced iOS Developer with **10 years** of expertise in building scalable mobile applications | ✅ Accurate |
 | **Q:** "What's your professional background?" | **A:** PROFESSIONAL SUMMARY - Experienced iOS Developer with 10 years of expertise... | ✅ Relevant |
@@ -249,7 +273,7 @@ curl -X POST -F "file=@resume.pdf" http://localhost:3001/api/upload | jq '.'
   "preview": [
     "DEVENDRA AGNIHOTRI Email: devendra@email.com...",
     "PROFESSIONAL SUMMARY Experienced iOS Developer with 10 years...",
-    "PROFESSIONAL EXPERIENCE Staff Engineer - iOS at NAGARRO..."
+    "PROFESSIONAL EXPERIENCE Staff Engineer - iOS at XYZ..."
   ]
 }
 ```
@@ -266,7 +290,7 @@ curl -X POST http://localhost:3001/api/ask \
 {
   "question": "What is your current company?",
   "matches": [
-    "PROFESSIONAL EXPERIENCE\nStaff Engineer - iOS at NAGARRO SOFTWARE\n09/2021 to Current\nLed iOS development for multiple products across banking and e-commerce domains..."
+    "PROFESSIONAL EXPERIENCE\nStaff Engineer - iOS at XYZ Corporation\n09/2021 to Current\nLed iOS development for multiple products across banking and e-commerce domains..."
   ],
   "total_found": 1
 }
@@ -296,7 +320,7 @@ curl -X POST http://localhost:3001/api/ask \
 
 **Example Scoring:**
 ```
-Chunk: "PROFESSIONAL EXPERIENCE\nStaff Engineer - iOS at NAGARRO SOFTWARE..."
+Chunk: "PROFESSIONAL EXPERIENCE\nStaff Engineer - iOS at XYZ Corporation..."
   - Semantic: 75.32 (high match for "company")
   - Keyword: 120 (both "company" and "current" found)
   - Length bonus: +5 (complete section, 500 chars)
